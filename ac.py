@@ -25,11 +25,10 @@ except Exception:
     scalar_summary = tf.scalar_summary
 
 # Change that value to test instead of train
-testing = True
-# Model path (to load when testing)
-test_model_path = '/path/to/your/qlearning.tflearn.ckpt'
-# Atari game to learn
-# You can also try: 'Breakout-v0', 'Pong-v0', 'SpaceInvaders-v0', ...
+testing = False
+
+
+# Such as: 'Breakout-v0', 'Pong-v0', 'SpaceInvaders-v0', ...
 game = 'MsPacman-v0'
 # Learning threads
 n_threads = 6
@@ -58,7 +57,6 @@ show_training = True
 # Directory for storing tensorboard summaries
 summary_dir = '/tmp/tflearn_logs/'
 summary_interval = 100
-checkpoint_path = 'qlearning.tflearn.ckpt'
 checkpoint_interval = 1000
 # Number of episodes to run gym evaluation
 num_eval_episodes = 100
