@@ -1,2 +1,2 @@
 # tensorlayer_reinforcement_learning
-A simple example for reinforcement learning,using tensorlayer
+Some simple examples for reinforcement learning,using tensorlayer
